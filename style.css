@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter', sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  /* 🎀 Pink Background */
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+/* 💗 CARD */
+.card{
+  width:340px;
+  padding:22px;
+  border-radius:25px;
+
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border:1px solid rgba(255,255,255,0.4);
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+  text-align:center;
+  color:#333;
+
+  transition:0.4s;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+}
+
+/* TOP ICONS */
+.top{
+  display:flex;
+  justify-content:space-between;
+}
+
+.top i{
+  width:38px;
+  height:38px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  background:rgba(255,255,255,0.6);
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.top i:hover{
+  background:#ff6f91;
+  color:#fff;
+}
+
+/* PROFILE */
+.profile img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  margin:18px 0;
+  border:3px solid #fff;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile h2{
+  font-size:22px;
+  margin-bottom:5px;
+  color:#222;
+}
+
+.profile p{
+  font-size:14px;
+  color:#555;
+}
+
+/* SOCIAL */
+.social{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  margin:18px 0;
+}
+
+.social i{
+  width:38px;
+  height:38px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  background:rgba(255,255,255,0.7);
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.social i:hover{
+  transform: translateY(-4px);
+  background:#ff6f91;
+  color:#fff;
+}
+
+/* BUTTONS */
+.buttons{
+  display:flex;
+  gap:10px;
+  margin:15px 0;
+}
+
+button{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.primary{
+  background:#ff6f91;
+  color:#fff;
+}
+
+.primary:hover{
+  background:#ff4d73;
+}
+
+.secondary{
+  background:rgba(255,255,255,0.6);
+  color:#333;
+}
+
+.secondary:hover{
+  background:#fff;
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:space-between;
+  margin-top:18px;
+  padding-top:15px;
+  border-top:1px solid rgba(255,255,255,0.6);
+}
+
+.item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size:13px;
+  color:#444;
+}
+
+.item i{
+  margin-bottom:5px;
+  color:#ff4d73;
+}
