@@ -3,12 +3,7 @@
 A clean, modern and responsive **Profile Card UI Design** built using HTML and CSS.  
 This project focuses on glassmorphism style, smooth hover animations, and modern UI design principles.
 
----
-
-## 🚀 Live Demo
-👉 https://tasmimnahar.github.io/profile-card-ui/
-
----
+--
 
 ## 📸 Preview
 
